@@ -21,7 +21,7 @@ export class HomePage implements OnInit {
       url: '/home/dashboard'
     },
     {
-      title: 'Offers',
+      title: 'Movies',
       url: '/home/tabs'
     }
   ];
