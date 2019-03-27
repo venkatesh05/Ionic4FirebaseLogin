@@ -19,6 +19,10 @@ const routes: Routes = [
       {
         path: 'tabs',
         loadChildren: '../tabs/tabs.module#TabsPageModule'
+      },
+      {
+        path : 'components',
+        loadChildren: '../components/components.module#ComponentsPageModule'
       }
     ]
   }

@@ -21,10 +21,29 @@
 <ion-split-pane>
   <ion-menu contentId="content">
  
-    <ion-header>
-      <ion-toolbar color="primary">
-        <ion-title>Menu</ion-title>
-      </ion-toolbar>
+    <ion-header class="menuHeader">
+      <ion-grid>
+        <ion-row  class="ion-justify-content-center" align-items='stretch'>
+        <ion-col size="3">
+            <ion-avatar>
+                <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+              </ion-avatar>
+        </ion-col>
+        <ion-col size="9" class="ion-align-self-center">
+          <ion-row>
+              <ion-label>
+                  Name
+              </ion-label>
+          </ion-row>
+          <ion-row>
+              <ion-label>
+                  Email
+              </ion-label>
+          </ion-row>          
+        </ion-col>
+      </ion-row>
+      </ion-grid>
+       
     </ion-header>
  
     <ion-content>

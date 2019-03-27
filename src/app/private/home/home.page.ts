@@ -23,6 +23,10 @@ export class HomePage implements OnInit {
     {
       title: 'Movies',
       url: '/home/tabs'
+    },
+    {
+      title: 'Components',
+      url: '/home/components'
     }
   ];
 

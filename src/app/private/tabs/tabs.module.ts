@@ -13,7 +13,7 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'offers',
+        path: 'movies',
         loadChildren: '../offers/offers.module#OffersPageModule'
       },
       {
@@ -24,7 +24,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'tabs/offers',
+    redirectTo: 'tabs/movies',
     pathMatch: 'full'
   }
 ];

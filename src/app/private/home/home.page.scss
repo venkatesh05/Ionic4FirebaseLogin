@@ -1,3 +1,9 @@
 .active-item {
     border-left: 8px solid var(--ion-color-primary);
 }
+
+.menuHeader{
+    background-image: url('../../../assets/img/menu_header_bg1.jpeg');
+    height: 200px;
+    background-size: cover
+}
